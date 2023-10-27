@@ -1,0 +1,25 @@
+
+
+<ion-content >
+  <div class="flex-center">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color="success">De una</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Email:</ion-label>
+          <ion-input type="Email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Password:</ion-label>
+          <ion-input type="Password"></ion-input>
+        </ion-item>
+        <ion-button color="dark" fill="'clear" size="full">Forgot email/password</ion-button>
+        <ion-button color="success" size="full" (click)="goToHome()">Login</ion-button>
+        <ion-button color="success" size="full" (click)="goToRegistro()">Register</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

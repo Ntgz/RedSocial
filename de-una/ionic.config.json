@@ -1,0 +1,7 @@
+{
+  "name": "DeUna",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
